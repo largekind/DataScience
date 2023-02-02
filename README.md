@@ -20,3 +20,7 @@ To Run bash, Exec following this cmd.
 > docker-compose exec jupyter bash
 
 [Reference](https://zenn.dev/hosyan/articles/49624f4461c3f6)
+
+## Link
+
+[UdemyInfo](https://www.tsjshg.info/udemy/notebooks.html)
