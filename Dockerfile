@@ -15,6 +15,7 @@ RUN conda install pandas-profiling &&\
     conda install -c conda-forge xgboost && \
     conda install -c conda-forge lightgbm && \
     conda install jupyter -y --quiet && \
+    conda install -c conda-forge jupyterlab jupyterlab-git && \
     mkdir -p /notebooks
 
 WORKDIR /notebooks
