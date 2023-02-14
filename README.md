@@ -14,7 +14,7 @@ This project is created for my data science review
 ## Usage
 
 Access the following URL to launch Jupyterlab.
-> http://localhost:8888/lab 
+> http://localhost:7890/lab 
 
 To Run bash, Exec following this cmd.
 > docker-compose exec jupyter bash
