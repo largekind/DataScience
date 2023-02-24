@@ -12,6 +12,7 @@ RUN pip install --upgrade pip && \
     pip install graphviz pydotplus
 
 RUN conda install pandas-profiling &&\
+    conda install -c anaconda pandas-datareader &&\
     conda install scikit-learn && \
     conda install -c conda-forge xgboost && \
     conda install -c conda-forge lightgbm && \
