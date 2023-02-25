@@ -18,6 +18,7 @@ RUN conda install pandas-profiling &&\
     conda install -c conda-forge lightgbm && \
     conda install jupyter -y --quiet && \
     conda install -c conda-forge jupyterlab jupyterlab-git jupyterlab_vim && \
+    conda install -c conda-forge yfinance &&\
     mkdir -p /notebooks
 
 # 補完機能の導入
