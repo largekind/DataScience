@@ -12,11 +12,13 @@ RUN pip install --upgrade pip && \
     pip install graphviz pydotplus
 
 RUN conda install pandas-profiling &&\
+    conda install -c anaconda pandas-datareader &&\
     conda install scikit-learn && \
     conda install -c conda-forge xgboost && \
     conda install -c conda-forge lightgbm && \
     conda install jupyter -y --quiet && \
     conda install -c conda-forge jupyterlab jupyterlab-git jupyterlab_vim && \
+    conda install -c conda-forge yfinance &&\
     mkdir -p /notebooks
 
 # 補完機能の導入

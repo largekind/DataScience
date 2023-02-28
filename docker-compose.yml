@@ -3,9 +3,9 @@ services:
   jupyter:
     build: .
     command:
-     jupyter-lab --ip 0.0.0.0 --port=8888 --allow-root --no-browser --NotebookApp.token=''
+     jupyter-lab --ip 0.0.0.0 --port=7890 --allow-root --no-browser --NotebookApp.token=''
     ports:
-      - "8888:8888"
+      - "7890:7890"
     working_dir: '/notebooks'
     tty: true
     volumes:
